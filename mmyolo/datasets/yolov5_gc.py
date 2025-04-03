@@ -6,7 +6,7 @@ from ..registry import DATASETS
 
 
 @DATASETS.register_module()
-class YOLOv5NEUDataset(BatchShapePolicyDataset, NEUDataset):
+class YOLOv5GCDataset(BatchShapePolicyDataset, NEUDataset):
     """Dataset for YOLOv5 VOC Dataset.
 
     We only add `BatchShapePolicy` function compared with VOCDataset. See
