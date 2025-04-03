@@ -7,9 +7,13 @@ from .yolov6_pafpn import YOLOv6CSPRepPAFPN, YOLOv6RepPAFPN
 from .yolov7_pafpn import YOLOv7PAFPN
 from .yolov8_pafpn import YOLOv8PAFPN
 from .yolox_pafpn import YOLOXPAFPN
+from .lsrf_neck import LSRF_Neck
+from .rf_neck import RFYOLONeck
+
+
 
 __all__ = [
     'YOLOv5PAFPN', 'BaseYOLONeck', 'YOLOv6RepPAFPN', 'YOLOXPAFPN',
     'CSPNeXtPAFPN', 'YOLOv7PAFPN', 'PPYOLOECSPPAFPN', 'YOLOv6CSPRepPAFPN',
-    'YOLOv8PAFPN'
+    'YOLOv8PAFPN','RFYOLONeck','LSRF_Neck'
 ]
