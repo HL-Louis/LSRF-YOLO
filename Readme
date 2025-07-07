@@ -1,0 +1,4 @@
+Notes: The dataset needs to be downloaded manually and processed in VOC format.
+
+Training:
+python tools/train.py lsrf_yolo_gc10-det.py
