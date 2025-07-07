@@ -1,12 +1,12 @@
 
-_base_ = ['../_base_/default_runtime.py', '../_base_/det_p5_tta.py']
+_base_ = ['./_base_/default_runtime.py', './_base_/det_p5_tta.py']
 
 # ========================Frequently modified parameters======================
 # -----data related-----
 data_root = 'data/New_GC-DET/'
 # data_root = 'data/APDDD'
 # data_root = '../mmdetection2.0/data/NEU-DET/'
-dataset_type = 'YOLOv5NEUDataset'
+dataset_type = 'YOLOv5GCDataset'
 
 
 num_classes = 10 # Number of classes for classification
